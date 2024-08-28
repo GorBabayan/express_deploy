@@ -6,7 +6,7 @@ const { MongoClient } = require('mongodb');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-const PORT = process.env.PORT || 2344;
+const PORT = 3011;
 
 
 async function initializeApp() {
